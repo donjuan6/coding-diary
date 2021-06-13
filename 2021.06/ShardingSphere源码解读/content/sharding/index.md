@@ -15,7 +15,7 @@
 
 数据分片主要功能实现涉及以下模块：
 
-![模块依赖图-简版](static/01.jpg)
+![模块依赖图-简版](../../static/01.jpg)
 
 * sharding-spring：基于 spring 技术底座的 shardingsphere 集成
 
@@ -144,7 +144,7 @@ public DataSource shardingDataSource() throws SQLException {
 
 2. ShardingSphere SQL 语句执行
 
-![SQL 执行流程时序图](static/02.jpg)
+![SQL 执行流程时序图](../../static/02.jpg)
 
 2.1 内核剖析
 
