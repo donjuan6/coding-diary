@@ -1,4 +1,4 @@
-＃　数据分片
+＃ 数据分片
 
 本功能以 sharding-jdbc 功能视角去描述
 
@@ -142,12 +142,16 @@ public DataSource shardingDataSource() throws SQLException {
 }
 ```
 
-* 
-
-1.3
-
-
-
 2. ShardingSphere SQL 语句执行
 
-![SQL 执行流程](static/02.jpg)
+![SQL 执行流程时序图](static/02.jpg)
+
+2.1 内核剖析
+
+![总体流程](https://shardingsphere.apache.org/document/current/img/sharding/sharding_architecture_cn.png)
+
+* [解析引擎](content/parser/index.md)
+* [路由引擎](content/router/index.md)
+* [改写引擎](content/rewriter/index.md)
+* [执行引擎](content/executor/index.md)
+* [归并引擎](content/merge/index.md)
