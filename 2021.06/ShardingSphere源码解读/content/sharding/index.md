@@ -150,8 +150,8 @@ public DataSource shardingDataSource() throws SQLException {
 
 ![总体流程](https://shardingsphere.apache.org/document/current/img/sharding/sharding_architecture_cn.png)
 
-* [解析引擎](content/parser/index.md)
-* [路由引擎](content/router/index.md)
-* [改写引擎](content/rewriter/index.md)
-* [执行引擎](content/executor/index.md)
-* [归并引擎](content/merge/index.md)
+* [解析引擎](sql-parse.md)
+* [路由引擎](sql-route.md)
+* [改写引擎](sql-rewrite.md)
+* [执行引擎](sql-execute.md)
+* [归并引擎](sql-merge.md)
